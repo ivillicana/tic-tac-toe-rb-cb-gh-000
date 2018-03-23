@@ -93,5 +93,5 @@ def play(board)
   until over?
     turn(board)
   end
-  
+
 end
