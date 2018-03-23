@@ -90,10 +90,8 @@ def current_player(board)
 end
 
 def play(board)
-  until over?
+  until over?(board)
     turn(board)
-    won?(board)
-    draw?(board)
   end
 
 end
